@@ -24,5 +24,5 @@ Telegram-бот для администрирования группы техн�
 ## Стек
 
 - Python 3.11+
-- SQLAlchemy + SQLite
+- SQLAlchemy + PostgreSQL
 - (Web framework TBD)
