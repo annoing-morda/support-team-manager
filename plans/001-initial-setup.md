@@ -12,19 +12,19 @@
 ## Шаги (Proposed Steps)
 
 ### 1. Подготовка окружения
-- [ ] 1.1. Создать базовую структуру папок (`bot/`, `handlers/`, `services/`, `database/` и т.д.) согласно `docs/tech.md`.
-- [ ] 1.2. Настроить `pyproject.toml` с зависимостями (aiogram, sqlalchemy, alembic, asyncpg, pydantic-settings, apscheduler).
-- [ ] 1.3. Создать `.gitignore` и `.env.example`.
-- [ ] 1.4. Настроить Docker-окружение (`Dockerfile`, `docker-compose.yml`) с PostgreSQL.
+- [x] 1.1. Создать базовую структуру папок (`bot/`, `handlers/`, `services/`, `database/` и т.д.) согласно `docs/tech.md`.
+- [x] 1.2. Настроить `pyproject.toml` с зависимостями (aiogram, sqlalchemy, alembic, asyncpg, pydantic-settings, apscheduler).
+- [x] 1.3. Создать `.gitignore` и `env.example`.
+- [x] 1.4. Настроить Docker-окружение (`Dockerfile`, `docker-compose.yml`) с PostgreSQL.
 
 ### 2. База данных
-- [ ] 2.1. Настроить подключение к БД (`database/session.py`, `config.py`).
-- [ ] 2.2. Реализовать модели данных для MVP (`Employee`, `Duty`) в `database/models.py`.
-- [ ] 2.3. Настроить Alembic и создать начальную миграцию.
+- [x] 2.1. Настроить подключение к БД (`database/session.py`, `config.py`).
+- [x] 2.2. Реализовать модели данных для MVP (`Employee`, `Duty`) в `database/models.py`.
+- [x] 2.3. Настроить Alembic и создать начальную миграцию.
 
 ### 3. Базовый бот
-- [ ] 3.1. Реализовать точку входа (`bot/__main__.py`) и запуск поллинга.
-- [ ] 3.2. Добавить обработчик `/start` и `/help` (`handlers/common.py`).
+- [x] 3.1. Реализовать точку входа (`bot/__main__.py`) и запуск поллинга.
+- [x] 3.2. Добавить обработчик `/start` и `/help` (`handlers/common.py`).
 - [ ] 3.3. Проверить запуск бота в Docker-контейнере.
 
 ### 4. Реализация функционала MVP
